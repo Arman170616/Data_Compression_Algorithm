@@ -24,10 +24,8 @@ plt.title('img1')
 plt.show()
 
 # Checking for horizontal and vertical features in image1
-print('Horizontal edge confidence score:', apply_kernel(img1,
-											kernel_horizontal))
-print('Vertical edge confidence score:', apply_kernel(img1,
-											kernel_vertical))
+print('Horizontal edge confidence score:', apply_kernel(img1,kernel_horizontal))
+print('Vertical edge confidence score:', apply_kernel(img1,kernel_vertical))
 
 # Visualizing img2
 plt.imshow(img2)
@@ -36,10 +34,8 @@ plt.title('img2')
 plt.show()
 
 # Checking for horizontal and vertical features in image2
-print('Horizontal edge confidence score:', apply_kernel(img2,
-											kernel_horizontal))
-print('Vertical edge confidence score:', apply_kernel(img2,
-											kernel_vertical))
+print('Horizontal edge confidence score:', apply_kernel(img2,kernel_horizontal))
+print('Vertical edge confidence score:', apply_kernel(img2,kernel_vertical))
 
 # Visualizing img3
 plt.imshow(img3)
@@ -48,7 +44,5 @@ plt.title('img3')
 plt.show()
 
 # Checking for horizontal and vertical features in image3
-print('Horizontal edge confidence score:', apply_kernel(img3,
-											kernel_horizontal))
-print('Vertical edge confidence score:', apply_kernel(img3,
-											kernel_vertical))
+print('Horizontal edge confidence score:', apply_kernel(img3,kernel_horizontal))
+print('Vertical edge confidence score:', apply_kernel(img3, kernel_vertical))
